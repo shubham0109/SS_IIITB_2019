@@ -1,0 +1,43 @@
+$ uname
+Print system information
+
+$ touch {1..100}.ext
+{1..10} is for continuous series from 1 to 10
+
+$ man -a prog
+(reference manual) 1-8  sections
+
+$ lsmod
+list all the kernel modules
+
+$ modinfo 
+
+$ cd - (previos dir)
+
+$ tree
+
+$ alias list='ls -l'
+
+$ fdisk /dev/sda
+->p
+
+$ df -h
+report filesystem disk space usage
+
+$ ls -i(print inode number)
+
+$ ls | wc
+
+$ mkfifo myfifo
+pipe is half duplex
+pipe is blocking call
+
+$ ipcs
+
+$ od -c <file-name>
+
+$ hexdump -C <file-name>
+
+$ gcc -E foo.c
+$ gcc -c foo.c
+$ gcc -S foo.c.c

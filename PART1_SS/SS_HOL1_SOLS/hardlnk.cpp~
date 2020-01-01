@@ -1,0 +1,10 @@
+# include <iostream>
+# include <unistd.h>
+
+using namsespace std;
+
+int main(){
+  int ret;
+  ret = link("file1.txt","myhardlnk");
+  return ret;
+}
